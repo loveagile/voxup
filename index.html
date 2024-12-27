@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<title>VOXUP</title>
+</head>
+
+<body>
+	<div class="loading">
+		<div class="is-pc">
+			<img src="./assets/images/logo_pc.svg" alt="logo_pc">
+		</div>
+		<div class="is-sp">
+			<img src="./assets/images/logo_sp.svg" alt="logo_sp">
+		</div>
+	</div>
+	<main>
+		<div class="voxup">
+			<div class="voxup-leftbar">
+				<img src="./assets/images/leftbar-logo.svg" alt="leftbar-logo">
+			</div>
+			<div class="voxup-rightbar">
+				<div class="logo">
+					<svg xmlns="http://www.w3.org/2000/svg" width="148" height="25" viewBox="0 0 148 25" fill="none">
+						<path
+							d="M35.2766 2.14648H38.5225C38.8423 2.14648 39.1233 2.34512 39.2347 2.64065L44.3266 16.3514L49.4184 2.64065C49.5299 2.34028 49.8157 2.14648 50.1306 2.14648H53.2603C53.7981 2.14648 54.1663 2.6891 53.9677 3.19296L46.4195 21.9907C46.3033 22.2814 46.0223 22.4703 45.7122 22.4703H42.8199C42.5098 22.4703 42.2288 22.2814 42.1125 21.9907L34.5692 3.19296C34.3706 2.69394 34.7388 2.14648 35.2766 2.14648Z"
+							fill="#00B1E7" />
+						<path
+							d="M56.3853 12.2917V12.2335C56.3853 6.49732 60.9103 1.80273 67.1358 1.80273C73.3613 1.80273 77.8282 6.44403 77.8282 12.1802V12.2384C77.8282 17.9746 73.3032 22.674 67.0777 22.674C60.8521 22.674 56.3853 18.0327 56.3853 12.2965V12.2917ZM73.1869 12.2917V12.2335C73.1869 8.77436 70.6483 5.89172 67.0777 5.89172C63.5071 5.89172 61.0265 8.71622 61.0265 12.1754V12.2335C61.0265 15.6927 63.5652 18.5753 67.1358 18.5753C70.7064 18.5753 73.1869 15.7508 73.1869 12.2917Z"
+							fill="#00B1E7" />
+						<path
+							d="M97.8031 3.33345L91.8731 12.0007L98.0938 21.1283C98.4378 21.6322 98.0744 22.3201 97.464 22.3201H94.1259C93.8692 22.3201 93.6318 22.1893 93.4913 21.9761L89.194 15.4018L84.8676 21.9761C84.7271 22.1893 84.4897 22.3201 84.2329 22.3201H81.0451C80.4346 22.3201 80.0713 21.6322 80.4152 21.1283L86.6311 12.0589L80.6962 3.33345C80.3523 2.8296 80.7156 2.14648 81.3261 2.14648H84.6593C84.916 2.14648 85.1583 2.27729 85.2988 2.49531L89.2812 8.68693L93.3508 2.49046C93.4913 2.27729 93.7287 2.14648 93.9854 2.14648H97.1782C97.7886 2.14648 98.152 2.83444 97.808 3.3383L97.8031 3.33345Z"
+							fill="#00B1E7" />
+						<path
+							d="M109.091 13.6722V2.90711C109.091 2.48562 109.43 2.14648 109.852 2.14648H112.768C113.19 2.14648 113.529 2.48562 113.529 2.90711V13.5608C113.529 16.8455 115.171 18.546 117.88 18.546C120.588 18.546 122.23 16.9037 122.23 13.7061V2.90711C122.23 2.48562 122.569 2.14648 122.991 2.14648H125.908C126.329 2.14648 126.668 2.48562 126.668 2.90711V13.5317C126.668 19.641 123.238 22.6399 117.822 22.6399C112.405 22.6399 109.091 19.6119 109.091 13.677V13.6722Z"
+							fill="#00B1E7" />
+						<path
+							d="M131.193 2.90711C131.193 2.48562 131.532 2.14648 131.954 2.14648H139.434C144.245 2.14648 147.157 5.00005 147.157 9.12295V9.18109C147.157 13.8515 143.523 16.269 138.998 16.269H135.626V21.5595C135.626 21.981 135.287 22.3201 134.866 22.3201H131.949C131.528 22.3201 131.188 21.981 131.188 21.5595V2.90711H131.193ZM139.148 12.3205C141.367 12.3205 142.666 10.993 142.666 9.26345V9.20532C142.666 7.21896 141.285 6.14827 139.061 6.14827H135.631V12.3157H139.148V12.3205Z"
+							fill="#00B1E7" />
+						<path
+							d="M22.3489 5.30987L14.1177 18.6039C13.9917 18.8026 13.7737 18.9237 13.5411 18.9237H10.9686C10.736 18.9237 10.518 18.8026 10.392 18.6039L6.43386 12.2573L4.66551 9.42308C4.52502 9.19538 4.68489 8.90469 4.95136 8.90469H7.95996C8.19251 8.90469 8.41052 9.02581 8.53649 9.22445L10.4308 12.2573L12.2524 15.1738V15.1641L17.572 6.5792L19.9556 2.72761C17.853 1.02225 15.1738 0 12.2573 0C5.48913 0 0 5.48913 0 12.2573V24.5145H12.2573C19.0254 24.5145 24.5145 19.0254 24.5145 12.2573C24.5145 9.67501 23.7103 7.28169 22.3489 5.30502V5.30987Z"
+							fill="#00B1E7" />
+					</svg>
+				</div>
+				<div class="content">
+					<div>
+						<div class="content-instruction">
+							<div class="icon-img">
+								<img src="./assets/images/icon_img.svg" alt="">
+							</div>
+							<h3>
+								アンケートにご協力お願いします。あなた回答をテスト福田の改善に役立てます！
+							</h3>
+							<span class="time">
+								10:20
+							</span>
+						</div>
+						<div class="content-img">
+							<img src="./assets/images/main-img.svg" alt="img">
+							<!-- <p class="content-img__txt">お願いします！</p>
+							<p class="content-img__txt">よろしく</p> -->
+						</div>
+						<div class="content-questionBtn">
+							<div class="icon-img is-pc">
+								<img src="./assets/images/icon_img.svg" alt="">
+							</div>
+							<h3>
+								<div class="content-questionBtn-btnBox">
+									<p class="txt">アンケートは２問です。</p>
+									<button type="button" id="startBtn">
+										START
+									</button>
+								</div>
+							</h3>
+							<span class="time">
+								10:20
+							</span>
+						</div>
+					</div>
+					<div class="content-messages">
+						<div class="content-messages-item">
+							<span class="time">
+								10:20
+							</span>
+							<p class="">
+								アンケートにご協力お願いします。あなた回答をテスト福田の改善に役立てます！
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="evaluation">
+					<div>
+						<div class="evaluation-instruction">
+							<div class="icon-img">
+								<img src="./assets/images/icon_img.svg" alt="">
+							</div>
+							<h3>
+								<div class="evaluation-questionBtn-btnBox">
+									<p class="txt">いまの仕事を５段階で評価すると？</p>
+									<button type="button">
+										とても良い
+									</button>
+									<button type="button">
+										良い
+									</button>
+									<button type="button">
+										ふつう
+									</button>
+									<button type="button">
+										悪い
+									</button>
+									<button type="button">
+										とても悪い
+									</button>
+								</div>
+							</h3>
+							<span class="time">
+								10:20
+							</span>
+						</div>
+					</div>
+				</div>
+				<form id="msgForm">
+					<div class="input-message">
+						<textarea class="is-pc" id="msgInput" rows="5" placeholder="自由入力形式です。忌避なく回答してください。"></textarea>
+						<textarea class="is-sp" id="msgInput" rows="5" placeholder="Aa"></textarea>
+						<div class="msgBtnGroup">
+							<button type="button" id="skipBtn">スキップ</button>
+							<button type="button" id="msgBtn">
+								<img src="./assets/images/submit-btn.svg" alt="submit">
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="finishPage">
+			<div class="logo">
+				<img src="./assets/images/logo_finish.svg" alt="logo_finish">
+			</div>
+			<div class="finishPage-img">
+				<img src="./assets/images/finish-img.svg" alt="">
+			</div>
+			<div class="finishPage-description">
+				<div class="finishPage-txt">
+					VOX UPでは週に１回<br class="is-sp">アンケートを行います。<br>
+					引き続きご協力よろしくお願いします。
+				</div>
+				<button type="button" id="finishBtn">
+					<img src="./assets/images/close.svg" alt="">
+					<span>画面を閉じる</span>
+				</button>
+			</div>
+		</div>
+	</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="./assets/js/index.js"></script>
+</body>
+
+</html>
